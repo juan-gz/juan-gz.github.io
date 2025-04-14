@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tableros control y seguimiento</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #FFFFFF;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/68/ETB_logo.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top;
+    }
+
+    h1 {
+      text-align: center;
+      color: #118DFF;
+      margin: 30px 0;
+      font-size: 2em;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-left: 6px solid #118DFF;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+      max-width: 700px;
+      transition: border-color 0.3s ease;
+    }
+
+    .card:hover {
+      border-left-color: #E66C37;
+    }
+
+    .card strong {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 8px;
+      color: #118DFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #E66C37;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📊 Tableros control y seguimiento</h1>
+
+  <div class="card">
+    <strong>Seguimiento_Transferencias</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiNWEzY2FiMzEtZTZjZC00YWM3LThlNWQtYzM5YzhiYzZmNTM5IiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <div class="card">
+    <strong>Re_Contacto_PQR´s</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiMDBjMjNlNjctZjFiNi00MjQ4LWJiMTAtOWUwNmNkNzhiOTBhIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <div class="card">
+    <strong>Seguimiento_Traslados</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiZTE5MWJjYTAtYWJiYy00MjBlLTg3YjItZWQ1OTEzNmQzYTYzIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <div class="card">
+    <strong>Intenciones_Bajas_Fija</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiZjEzMmM2ODUtZjYzMC00MjljLWE0ZTYtNGMwNmE4MmYxNTAyIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <!-- Nuevo tablero "Indicadores" -->
+  <div class="card">
+    <strong>Indicadores</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiNmZiZWI1ZTAtN2NhZS00Y2FhLWFlNGItMGI1MWRkM2Q3YmRjIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <!-- Nuevos tableros añadidos -->
+  <div class="card">
+    <strong>CDM</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzA2MGQyMjAtYTlmOC00MjYyLWI4OGEtMTg1YjlhZDM1ODFmIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <div class="card">
+    <strong>IVR ETB</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjIyNzQ5OWMtMTJiMC00NGQyLTkwMDgtYTM2ZTkzYTVlNmJmIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <div class="card">
+    <strong>Balanceador</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiMWQyNjEwZTktYjczZC00ODAzLWFhOWQtNTc3NzY2ZGM2MmVlIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <div class="card">
+    <strong>IVR DIARIO</strong><br>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiZGViZThhNjctNGZhOS00NmZmLTk0MzktODlmM2E4NjdlNDhlIiwidCI6ImQ0Mzk5ZGU1LTRiMGUtNGI3YS05OTY5LTNlMzVhMTcyZWVlMiIsImMiOjR9" target="_blank">
+      Ver reporte
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 ETB - Empresa de Telecomunicaciones de Bogotá
+  </footer>
+
+</body>
+</html>
